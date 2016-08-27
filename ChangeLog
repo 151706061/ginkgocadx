@@ -1,13 +1,32 @@
+Version 3.8.3 (2015-04-12)
+-------------------------
+
+* Remove some un-used code that fails  to compile with the
+  upcoming openssl-1.1.0
+
+
+Version 3.8.2 (2015-04-12)
+-------------------------
+
+* Correct shaders for image coloring. Closes: #18 
+
+
+Version 3.8.1 (2015-04-12)
+-------------------------
+
+* Correct display of ECG series loaded from files with more then
+  one data set. Closes #17
+
 Version 3.8.0 (2015-03-16)
 -------------------------
 
-* Silence warning log that blocks the program when opening a data 
+* Silence warning log that blocks the program when opening a data
   set, Closes #11
 * Fix crash when views would be changed from 1x2 or 2x1 to 1x1
-  Closes: #14 
+  Closes: #14
 * Run the code through Coverity and fix a lot of issues. Closes: #15
-* Clean up the version number handling to make sure that is used 
-  what is given in CMakeLists.txt 
+* Clean up the version number handling to make sure that is used
+  what is given in CMakeLists.txt
 
 Version 3.7.5 (2016-02-25)
 --------------------------
